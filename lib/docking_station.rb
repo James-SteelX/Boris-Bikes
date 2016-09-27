@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require_relative 'bike'
 
 class DockingStation
@@ -12,4 +13,10 @@ class DockingStation
     @bike = bike
   end
   
+=======
+class DockingStation
+  def release_bike
+
+  end
+>>>>>>> 1cd0daf6e9052589c5f32fc446921fb9fde1e810
 end

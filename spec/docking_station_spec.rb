@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'docking_station'
 
 describe DockingStation do
@@ -27,4 +28,16 @@ describe DockingStation do
 
   it { is_expected.to respond_to(:bike) }
 
+=======
+require 'spec_helper'
+
+describe 'DockingStation' do
+  before :each do
+    @DockingStation = DockingStation.new
+  end
+
+  it 'responds to release_bike' do
+    expect(subject).to respond_to :release_bike
+  end
+>>>>>>> 1cd0daf6e9052589c5f32fc446921fb9fde1e810
 end
